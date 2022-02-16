@@ -1,13 +1,22 @@
-import React from 'react';
-import './App.css';
+
+import "./App.css";
+// import FetchData from './components/FetchData';
+// import InfiniteLoop from "./components/infiniteLoop"
+// import SearchForm from "./components/searchForm";
+import Unsplash from "./components/Unsplash";
+// import CleanUp from "./components/CleanUp"
 
 const App = () => {
   return (
     <main>
-     <h1>Welcome to React</h1>
+    
+      {/* <InfiniteLoop /> */}
+      {/* <FetchData /> */}
+      {/* <SearchForm /> */}
+      <Unsplash />
+      {/* <CleanUp/> */}
     </main>
   );
-}
+};
 
 export default App;
-
