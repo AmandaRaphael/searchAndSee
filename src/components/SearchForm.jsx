@@ -1,6 +1,8 @@
 import React,{useEffect}from 'react'
-
-const SearchForm = ({ inputRef, searchInput, setSearchInput, submitHandler }) => {
+import { useContext } from "react"
+import MyContext from "../context/MyContext"
+const SearchForm = () => {
+    const {inputRef,searchInput,submitHandler,setSearchInput}=useContext(MyContext)
     useEffect(() => {
         inputRef.current.focus();
         inputRef.current.style.fontSize="20px"
